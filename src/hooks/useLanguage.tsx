@@ -33,19 +33,36 @@ export const useLanguage = (): Language => {
 		workExperience:
 			language === "es"
 				? {
-						tittle: "Experiencia laboral",
-						job: ["Analista Programador", "Analista de desarrollo"],
-						description: [
-							"✅Desarrollo e implementación de aplicaciones web, integracion de APIs, gestionamiento de bases de datos SQL y NoSQL, implementación de comunicación SOAP e REST y desarrollo mobile bajo metodologías Scrum. ✅En este cargo desempeñe tareas como:1. Optimicé el rendimiento de aplicaciones web, reduciendo el tiempo de carga en un 20% 2. Desarrollé e implementé nuevas funcionalidades que mejoraron la experiencia del usuario y aumentaron la productividad en un 30%",
-							"✅Promovido luego de 3 meses de Semillero al cargo de Analista de desarrollo, en donde desempeñe tareas como: . Mantenimiento y optimización de diferentes proyectos web y mobile para mejorar el rendimiento de las aplicaciones. 2. Desarrollo de nuevas funcionalidades o rediseño de pantallas de los proyectos existentes.",
+						tittle: "EXPERIENCIA LABORAL",
+						company: ["Samtel Consultores Colombia", "Banco Bancamia"],
+						job: [
+							{
+								tittleJob: "Analista Programador",
+								description:
+									"✅Desarrollo e implementación de aplicaciones web, integracion de APIs, gestionamiento de bases de datos SQL y NoSQL, implementación de comunicación SOAP e REST y desarrollo mobile bajo metodologías Scrum. ✅En este cargo desempeñe tareas como. - Optimicé el rendimiento de aplicaciones web, reduciendo el tiempo de carga en un 20%. - Desarrollé e implementé nuevas funcionalidades que mejoraron la experiencia del usuario y aumentaron la productividad en un 30%",
+							},
+							{
+								tittleJob: "Analista de desarrollo",
+								description:
+									"✅Promovido luego de 3 meses de Semillero al cargo de Analista de desarrollo, en donde desempeñe tareas como. - Mantenimiento y optimización de diferentes proyectos web y mobile para mejorar el rendimiento de las aplicaciones. - Desarrollo de nuevas funcionalidades o rediseño de pantallas de los proyectos existentes",
+							},
 						],
 				  }
 				: {
-						tittle: "",
-						job: ["Programmer analyst", "Developer analyst"],
-						description: [
-							"✅Development and implementation of web applications, integration of APIs, management of SQL and NoSQL databases, implementation of SOAP and REST communication and mobile development under Scrum methodologies.✅ In this position you perform tasks such as: 1. Optimized web application performance, reducing load time by 20% 2. I developed and implemented new features that improved the user experience and increased productivity by 30%",
-							"✅Promoted after 3 months from Semillero to the position of Development Analyst, where he performs tasks such as:1. Maintenance and optimization of different web and mobile projects to improve the performance of applications. 2. Development of new functionalities or redesign of screens of existing projects.",
+						tittle: "WORK EXPERIENCE",
+						company: ["Samtel Consultores Colombia", "Banco Bancamia"],
+
+						job: [
+							{
+								tittleJob: "Programmer analyst",
+								description:
+									"✅Development and implementation of web applications, integration of APIs, management of SQL and NoSQL databases, implementation of SOAP and REST communication and mobile development under Scrum methodologies. ✅ In this position you perform tasks such as. - Optimized web application performance, reducing load time by 20%. - I developed and implemented new features that improved the user experience and increased productivity by 30%",
+							},
+							{
+								tittleJob: "Developer analyst",
+								description:
+									"✅Promoted after 3 months from Semillero to the position of Development Analyst, where he performs tasks such as. - Maintenance and optimization of different web and mobile projects to improve the performance of applications. - Development of new functionalities or redesign of screens of existing projects",
+							},
 						],
 				  },
 		projects:
