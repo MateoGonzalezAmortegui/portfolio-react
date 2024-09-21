@@ -18,11 +18,11 @@ export const Navbar = () => {
 		<>
 			{/* Mobile View */}
 			<nav className="fixed bottom-0 left-0 z-50 grid content-center w-full h-20 grid-cols-6 shadow-inner md:hidden place-items-center bg-whites dark:bg-Gray4">
-				{navbar.sections.map((tittle, index) => (
+				{navbar.sections.map((section, index) => (
 					<ButtonsMobile
 						key={index}
 						Index={index}
-						Tittle={tittle}
+						path={section.path}
 					/>
 				))}
 				{theme == "light" ? (
@@ -50,10 +50,11 @@ export const Navbar = () => {
 					</div>
 
 					<div className="flex items-center justify-center space-x-4 text-base font-bold lg:text-lg">
-						{navbar.sections.map((tittle, index) => (
+						{navbar.sections.map((section, index) => (
 							<Sections
 								key={index}
-								section={tittle}
+								name={section.name}
+								path={section.path}
 							/>
 						))}
 					</div>

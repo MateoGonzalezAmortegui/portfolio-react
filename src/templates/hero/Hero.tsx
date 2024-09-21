@@ -12,10 +12,7 @@ export const Hero = () => {
 	const { hero } = useLanguage()
 
 	return (
-		<section
-			id="Sobre%20mí"
-			className="relative w-full h-48 drop-shadow-md md:h-[28rem] lg:h-[50rem]"
-		>
+		<section className="relative w-full h-48 drop-shadow-md md:h-[28rem] lg:h-[50rem]">
 			<figure>
 				<Image
 					src="/hero.png"

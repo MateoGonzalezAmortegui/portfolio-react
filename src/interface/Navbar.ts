@@ -1,4 +1,9 @@
+interface Routes {
+	path: string
+	name: string
+}
 export interface NavbarProps {
-	sections: string[]
+	id: string
+	sections: Routes[]
 	language: string
 }

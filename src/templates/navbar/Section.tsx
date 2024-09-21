@@ -1,10 +1,17 @@
-export const Sections = ({ section }: { section: string }) => {
+import Link from "next/link"
+
+interface SectionProps {
+	name: string
+	path: string
+}
+
+export const Sections = ({ name, path }: SectionProps) => {
 	return (
-		<a
+		<Link
 			className="box-border p-2 rounded-lg effect_items_nav"
-			href={`#${section}`}
+			href={`#${path}`}
 		>
-			{section}
-		</a>
+			{name}
+		</Link>
 	)
 }

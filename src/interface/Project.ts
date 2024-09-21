@@ -11,6 +11,7 @@ interface Project {
 }
 
 export interface ProjectProps {
+	id: string
 	tittle: string
 	project: Project[]
 	cta: string

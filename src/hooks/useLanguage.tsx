@@ -9,11 +9,23 @@ export const useLanguage = (): Language => {
 		navbar:
 			language === "es"
 				? {
-						sections: ["Sobre mí", "Proyectos", "Tecnologias", "Contáctame"],
+						id: "mi",
+						sections: [
+							{ name: "Sobre mí", path: "mi" },
+							{ name: "Proyectos", path: "proyectos" },
+							{ name: "Tecnologias", path: "tecnologias" },
+							{ name: "Contáctame", path: "contacto" },
+						],
 						language: "Español",
 				  }
 				: {
-						sections: ["About me", "Projects", "Technologies", "Contact me"],
+						id: "me",
+						sections: [
+							{ name: "About me", path: "me" },
+							{ name: "Projects", path: "projects" },
+							{ name: "Technologies", path: "technologies" },
+							{ name: "Contact me", path: "contact" },
+						],
 						language: "English",
 				  },
 		hero:
@@ -51,7 +63,6 @@ export const useLanguage = (): Language => {
 				: {
 						tittle: "WORK EXPERIENCE",
 						company: ["Samtel Consultores Colombia", "Banco Bancamia"],
-
 						job: [
 							{
 								tittleJob: "Programmer analyst",
@@ -68,6 +79,7 @@ export const useLanguage = (): Language => {
 		projects:
 			language === "es"
 				? {
+						id: "proyectos",
 						tittle: "PROYECTOS",
 						project: [
 							{
@@ -160,6 +172,7 @@ export const useLanguage = (): Language => {
 						cta: "Ver pagina",
 				  }
 				: {
+						id: "projects",
 						tittle: "PROJECTS",
 						project: [
 							{
@@ -248,10 +261,94 @@ export const useLanguage = (): Language => {
 				  },
 		technologies:
 			language === "es"
-				? { tittle: "Tecnologias" }
-				: { tittle: "Technologies" },
+				? {
+						id: "tecnologias",
+						tittle: "TECNOLOGIAS",
+						technology: [
+							{
+								specify: "FRONTEND",
+								technologies: [
+									{ name: "HTML" },
+									{ name: "CSS" },
+									{ name: "SASS" },
+									{ name: "Tailwind" },
+									{ name: "JavaScript" },
+									{ name: "TypeScript" },
+									{ name: "React" },
+									{ name: "Nextjs" },
+									{ name: "Angular" },
+								],
+							},
+							{
+								specify: "BACKEND",
+								technologies: [
+									{ name: "Nodejs" },
+									{ name: "Nestjs" },
+									{ name: "Java" },
+									{ name: "SpringBoot" },
+									{ name: "MongoDB" },
+									{ name: "MySQL" },
+								],
+							},
+							{
+								specify: "NUBE",
+								technologies: [
+									{ name: "Docker" },
+									{ name: "AWS" },
+									{ name: "Azure" },
+								],
+							},
+						],
+				  }
+				: {
+						id: "technologies",
+						tittle: "TECHNOLOGIES",
+						technology: [
+							{
+								specify: "FRONTEND",
+								technologies: [
+									{ name: "HTML" },
+									{ name: "CSS" },
+									{ name: "SASS" },
+									{ name: "Tailwind" },
+									{ name: "JavaScript" },
+									{ name: "TypeScript" },
+									{ name: "React" },
+									{ name: "Nextjs" },
+									{ name: "Angular" },
+								],
+							},
+							{
+								specify: "BACKEND",
+								technologies: [
+									{ name: "Nodejs" },
+									{ name: "Nestjs" },
+									{ name: "Java" },
+									{ name: "SpringBoot" },
+									{ name: "MongoDB" },
+									{ name: "MySQL" },
+								],
+							},
+							{
+								specify: "CLOUD",
+								technologies: [
+									{ name: "Docker" },
+									{ name: "AWS" },
+									{ name: "Azure" },
+								],
+							},
+						],
+				  },
 		contact:
-			language === "es" ? { tittle: "Contactame" } : { tittle: "Contact me" },
+			language === "es"
+				? {
+						id: "contacto",
+						tittle: "Contactame",
+				  }
+				: {
+						id: "contact",
+						tittle: "Contact me",
+				  },
 	}
 	return languageData
 }

@@ -8,7 +8,7 @@ export const Project = () => {
 
 	return (
 		<section
-			id="Proyectos"
+			id={projects.id}
 			className="w-full pb-12 dark:bg-Gray4"
 		>
 			<div className="w-11/12 mx-auto">

@@ -2,15 +2,16 @@ import { Briefcase } from "@/components/icons/Briefcase"
 import { Cellphone } from "@/components/icons/Cellphone"
 import { Profile } from "@/components/icons/Profile"
 import { Technology } from "@/components/icons/Technology"
+import Link from "next/link"
 
 interface ButtonsMobileProps {
-	Tittle: string
+	path: string
 	Index: number
 }
 
-export const ButtonsMobile = ({ Tittle, Index }: ButtonsMobileProps) => {
+export const ButtonsMobile = ({ path, Index }: ButtonsMobileProps) => {
 	return (
-		<a href={`#${Tittle}`}>
+		<Link href={`#${path}`}>
 			{Index == 0 && (
 				<Profile
 					width={38}
@@ -35,6 +36,6 @@ export const ButtonsMobile = ({ Tittle, Index }: ButtonsMobileProps) => {
 					className=" dark:text-white"
 				/>
 			)}
-		</a>
+		</Link>
 	)
 }
