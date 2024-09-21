@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const SecImages = () => {
 	return (
-		<>
+		<figure>
 			<Image
 				className="hidden h-12 dark:flex lg:dark:hidden"
 				src="/logoN.png"
@@ -32,6 +32,6 @@ export const SecImages = () => {
 				width={144}
 				height={64}
 			/>
-		</>
+		</figure>
 	)
 }

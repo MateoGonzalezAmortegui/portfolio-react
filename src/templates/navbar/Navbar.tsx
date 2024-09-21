@@ -43,7 +43,7 @@ export const Navbar = () => {
 			</nav>
 
 			{/* Desktop View */}
-			<header>
+			<header className="sticky top-0 z-50 bg-white shadow-md dark:bg-Gray4 dark:text-whites">
 				<nav className="items-center justify-between hidden w-full h-20 p-4 shadow-md md:flex drop-shadow-md dark:bg-Gray4 dark:text-whites">
 					<div className="text-lg font-black">
 						<SecImages />

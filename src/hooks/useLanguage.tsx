@@ -68,42 +68,183 @@ export const useLanguage = (): Language => {
 		projects:
 			language === "es"
 				? {
-						tittle: "",
+						tittle: "PROYECTOS",
 						project: [
-							"Adopt Pet",
-							"Angular Store",
-							"Portafolio",
-							"Travel Page",
-							"Lista de To-Do App",
-							"Landing Page",
+							{
+								tittle: "Adopt Pet",
+								images: [
+									{ url: "/adoptPet/f1.png" },
+									{ url: "/adoptPet/f2.png" },
+									{ url: "/adoptPet/f2.png" },
+								],
+								description:
+									"PWA que simplifica la adopción de mascotas en Bogotá mediante geolocalización. Los usuarios pueden publicar y encontrar mascotas cercanas, facilitando conexiones rápidas y seguras con adoptantes.",
+								technologies: [
+									"Html",
+									"Tailwind",
+									"React",
+									"Nextjs",
+									"Nestjs",
+									"MongoDB",
+									"AWS",
+								],
+								url: "https://adopt-pet-three.vercel.app/",
+							},
+							{
+								tittle: "Angular Store",
+								images: [
+									{ url: "/angularStore/f1.png" },
+									{ url: "/angularStore/f2.png" },
+									{ url: "/angularStore/f3.png" },
+								],
+								description:
+									"Tienda en línea interactiva con funcionalidades avanzadas para productos, categorías y detalles. Implementado con diseño responsivo para una experiencia de compra fluida.",
+
+								technologies: ["Html", "Sass", "Angular", "TypeScript"],
+								url: "https://63af13f06fc0c508ae1f5f60--idyllic-profiterole-21cd83.netlify.app/home",
+							},
+							{
+								tittle: "Portafolio",
+								images: [
+									{ url: "/portfolio/f1.png" },
+									{ url: "/portfolio/f2.png" },
+									{ url: "/portfolio/f3.png" },
+								],
+								description:
+									"Un portafolio dinámico que destaca mis habilidades y proyectos, con modo oscuro y traducción de idiomas, optimizado para todos los dispositivos.",
+
+								technologies: ["Html", "Tailwind", "React", "Nextjs"],
+								url: "",
+							},
+							{
+								tittle: "Travel Page",
+								images: [
+									{ url: "/travelPage/f1.png" },
+									{ url: "/travelPage/f2.png" },
+									{ url: "/travelPage/f3.png" },
+								],
+
+								description:
+									"Plataforma interactiva que ofrece información detallada sobre destinos turísticos. Diseño responsivo y modo oscuro para una experiencia inmersiva.",
+
+								technologies: ["Html", "Tailwind", "JavaScript"],
+								url: "https://mateogonzalezamortegui.github.io/Travel-page/index.html",
+							},
+							{
+								tittle: "Lista de To-Do App",
+								images: [
+									{ url: "/todoPage/f1.png" },
+									{ url: "/todoPage/f2.png" },
+									{ url: "/todoPage/f3.png" },
+								],
+								description:
+									"Aplicación intuitiva para gestionar tareas con funciones de edición y seguimiento. Desarrollado con diseño responsivo y funcionalidades completas.",
+
+								technologies: ["Html", "Css", "React"],
+								url: "https://mateogonzalezamortegui.github.io/ToDo-ReactApp/",
+							},
+							{
+								tittle: "Landing Page",
+								images: [
+									{ url: "/landingPage/f1.png" },
+									{ url: "/landingPage/f2.png" },
+									{ url: "/landingPage/f3.png" },
+								],
+								description:
+									"Reto de Frontend Mentor, una página de aterrizaje optimizada con diseño adaptable y modo oscuro para mejorar la experiencia del usuario.",
+
+								technologies: ["Html", "Sass", "JavaScript"],
+								url: "https://mateogonzalezamortegui.github.io/Landing-Page/",
+							},
 						],
-						description: [
-							"Es una innovadora PWA (Aplicación Web Progresiva) que facilita el proceso de adopción de animales en Bogotá a través de un sistema de geolocalización. Con esta app, los usuarios pueden publicar y buscar mascotas cercanas en adopción, mejorando la visibilidad y conectando a los animales necesitados con hogares amorosos en su área. La plataforma no solo hace el proceso más eficiente, sino que también permite gestionar el contacto y la comunicación de manera segura entre adoptantes y propietarios. Todo esto, con una interfaz amigable y tecnología avanzada que garantiza un rendimiento óptimo.",
-							"¡Fue creado para una página de comercio electrónico interactivo con toda la información acerca de los productos, categorías, detalles del producto y con la interacción en todo el sitio web! Estaba implementando por lo que fue: Diseño responsivo",
-							"¡¡¡Fue creado para mostrar mis habilidades, proyectos y para mostrar un poco acerca de mí Es una página con la interacción en todo el sitio web !!! Estaba implementando por lo que fue: Diseño responsivo y modo oscuro, traducción de idiomas",
-							"¡¡¡Fue crear para ser una página web interactiva con toda la información sobre los países o lugar para visitar!!! Estaba implementando para que era: Diseño responsivo y modo oscuro",
-							"Se creó una página de lista de tareas interactiva con toda la información sobre las tareas por hacer, tareas completadas y edición de tareas con interacción en todo el sitio web. Estaba implementando por lo que fue: Diseño responsivo",
-							"¡¡¡Este proyecto fue un Reto de Frontend Mentor en el cual se trato de desarrollar una pagina de aterrizaje de acuerdo al tamaño de la pantalla y tener una interaccion en la pagina web!!! Fue la aplicación de lo que era: Responsive design y Dark Mode",
-						],
+						cta: "Ver pagina",
 				  }
 				: {
-						tittle: "",
+						tittle: "PROJECTS",
 						project: [
-							"Adopt Pet",
-							"Angular Store",
-							"Portfolio",
-							"Travel Page",
-							"To-Do App",
-							"Landing Page",
+							{
+								tittle: "Adopt Pet",
+								images: [
+									{ url: "/adoptPet/f1.png" },
+									{ url: "/adoptPet/f2.png" },
+									{ url: "/adoptPet/f2.png" },
+								],
+
+								description:
+									"PWA that simplifies the adoption of pets in Bogota by geolocation. Users can post and find nearby pets, facilitating quick and secure connections with adopters.",
+								technologies: [
+									"Html",
+									"Tailwind",
+									"React",
+									"Nextjs",
+									"Nestjs",
+									"MongoDB",
+									"AWS",
+								],
+								url: "https://adopt-pet-three.vercel.app/",
+							},
+							{
+								tittle: "Angular Store",
+								images: [
+									{ url: "/angularStore/f1.png" },
+									{ url: "/angularStore/f2.png" },
+									{ url: "/angularStore/f3.png" },
+								],
+								description:
+									"Interactive online store with advanced features for products, categories and details. Implemented with responsive design for a smooth shopping experience.",
+								technologies: ["Html", "Sass", "Angular", "TypeScript"],
+								url: "https://63af13f06fc0c508ae1f5f60--idyllic-profiterole-21cd83.netlify.app/home",
+							},
+							{
+								tittle: "Portfolio",
+								images: [
+									{ url: "/portfolio/f1.png" },
+									{ url: "/portfolio/f2.png" },
+									{ url: "/portfolio/f3.png" },
+								],
+								description:
+									"A dynamic portfolio that highlights my skills and projects, with dark mode and language translation, optimized for all devices.",
+								technologies: ["Html", "Tailwind", "React", "Nextjs"],
+								url: "",
+							},
+							{
+								tittle: "Travel Page",
+								images: [
+									{ url: "/travelPage/f1.png" },
+									{ url: "/travelPage/f2.png" },
+									{ url: "/travelPage/f3.png" },
+								],
+								description:
+									"Interactive platform that offers detailed information about tourist destinations. Responsive design and dark mode for an immersive experience.",
+								technologies: ["Html", "Tailwind", "JavaScript"],
+								url: "https://mateogonzalezamortegui.github.io/Travel-page/index.html",
+							},
+							{
+								tittle: "To-Do App",
+								images: [
+									{ url: "/todoPage/f1.png" },
+									{ url: "/todoPage/f2.png" },
+									{ url: "/todoPage/f3.png" },
+								],
+								description:
+									"Intuitive application to manage tasks with editing and tracking functions. Developed with responsive design and full functionalities.",
+								technologies: ["Html", "Css", "React"],
+								url: "https://mateogonzalezamortegui.github.io/ToDo-ReactApp/",
+							},
+							{
+								tittle: "Landing Page",
+								images: [
+									{ url: "/landingPage/f1.png" },
+									{ url: "/landingPage/f2.png" },
+									{ url: "/landingPage/f3.png" },
+								],
+								description:
+									"Frontend Mentor Challenge, an optimized landing page with responsive design and dark mode to improve the user experience.",
+								technologies: ["Html", "Sass", "JavaScript"],
+								url: "https://mateogonzalezamortegui.github.io/Landing-Page/",
+							},
 						],
-						description: [
-							"Is an innovative PWA (Progressive Web Application) that facilitates the process of animal adoption in Bogotá through a geolocation system. With this app, users can post and search for pets in their area, improving visibility and connecting the animals in need to loving homes in their area. The platform not only makes the process more efficient, but also allows for safe contact and communication between adopters and owners. All this, with a user-friendly interface and advanced technology that guarantees optimal performance.",
-							"Was create for a ECommerce page interactive with all information about the products, category´s, product detail and with interaction in all website !! Was implementing so that was: Responsive design",
-							"Was create for show my skills, projects and for show a little bit about me It´s a page with interaction in all website !! Was implementing so that was: Responsive design and Dark Mode, Language translation",
-							"Was create for be a web page interactive with all information about the countries or place for visit!! Was implementing so that was: Responsive design and Dark Mode",
-							"Was create for to-do list page interactive with all information about the tasks for do, completed tasks and edit of tasks with interaction in all website !! Was implementing so that was: Responsive design",
-							"This project was a Challenge of Frontend Mentor in which was try to develop a landing page according to size of the screen and have a interaction on web page!! Was implementing so that was: Responsive design and Dark Mode",
-						],
+						cta: "Wacth page",
 				  },
 		technologies:
 			language === "es"

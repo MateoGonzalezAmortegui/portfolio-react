@@ -3,39 +3,38 @@ import { Cellphone } from "@/components/icons/Cellphone"
 import { Profile } from "@/components/icons/Profile"
 import { Technology } from "@/components/icons/Technology"
 
-export const ButtonsMobile = ({
-	Tittle,
-	Index,
-}: {
+interface ButtonsMobileProps {
 	Tittle: string
 	Index: number
-}) => {
+}
+
+export const ButtonsMobile = ({ Tittle, Index }: ButtonsMobileProps) => {
 	return (
 		<a href={`#${Tittle}`}>
-			{Index == 0 ? (
+			{Index == 0 && (
 				<Profile
 					width={38}
 					className=" dark:text-white"
 				/>
-			) : null}
-			{Index == 1 ? (
+			)}
+			{Index == 1 && (
 				<Briefcase
 					width={38}
 					className=" dark:text-white"
 				/>
-			) : null}
-			{Index == 2 ? (
+			)}
+			{Index == 2 && (
 				<Technology
 					width={38}
 					className=" dark:text-white"
 				/>
-			) : null}
-			{Index == 3 ? (
+			)}
+			{Index == 3 && (
 				<Cellphone
 					width={38}
 					className=" dark:text-white"
 				/>
-			) : null}
+			)}
 		</a>
 	)
 }

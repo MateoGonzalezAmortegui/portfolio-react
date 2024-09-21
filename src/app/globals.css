@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .card {
-  @apply bg-whites max-w-xs rounded-lg shadow-xl dark:bg-Gray3;
+  @apply min-h-[500px] max-h-[612px] max-w-xs rounded-lg shadow-xl bg-whites dark:bg-Gray3;
 }
 
 .efect_card {
-  @apply transform transition-all hover:-translate-y-4 hover:shadow-xl hover:shadow-cyan-500;
+  @apply transition-all transform hover:-translate-y-4 hover:shadow-xl hover:shadow-cyan-500;
 }
 
 .effect_button {
@@ -15,11 +15,11 @@
 }
 
 .effect_items_nav {
-  @apply transform transition-all hover:-translate-y-2 hover:shadow-xl hover:shadow-cyan-500 hover:border hover:border-cyan-500;
+  @apply transition-all transform hover:-translate-y-2 hover:shadow-xl hover:shadow-cyan-500 hover:border hover:border-cyan-500;
 }
 
 .exp {
-  @apply text-Blues bg-Gray1 border-b-8 border-cyan-400 dark:border-purple-600 dark:text-purples;
+  @apply border-b-8 text-Blues bg-Gray1 border-cyan-400 dark:border-purple-600 dark:text-purples;
 }
 .exp_hover {
   @apply hover:border-b-8 hover:dark:border-gray-700;
