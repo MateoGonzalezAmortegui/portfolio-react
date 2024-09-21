@@ -343,11 +343,39 @@ export const useLanguage = (): Language => {
 			language === "es"
 				? {
 						id: "contacto",
-						tittle: "Contactame",
+						tittle: "CONTACTAMÉ",
+						sections: [
+							{ description: "BOG|COL" },
+							{ description: "(+57) 3227972209" },
+							{ description: "mateogonza.2000@hotmail.com" },
+							{
+								description: "",
+								socialMedia: [
+									{
+										name: "Linkedin",
+										url: "https://www.linkedin.com/in/mateo-gonzalez-amortegui/",
+									},
+								],
+							},
+						],
 				  }
 				: {
 						id: "contact",
-						tittle: "Contact me",
+						tittle: "CONTACT ME",
+						sections: [
+							{ description: "BOG|COL" },
+							{ description: "(+57) 3227972209" },
+							{ description: "mateogonza.2000@hotmail.com" },
+							{
+								description: "",
+								socialMedia: [
+									{
+										name: "Linkedin",
+										url: "https://www.linkedin.com/in/mateo-gonzalez-amortegui/",
+									},
+								],
+							},
+						],
 				  },
 	}
 	return languageData
