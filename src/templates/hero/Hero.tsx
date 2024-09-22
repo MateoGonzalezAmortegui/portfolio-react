@@ -52,12 +52,17 @@ export const Hero = () => {
 					<DescriptionHero text={hero.description} />
 
 					<div className="flex pt-4 space-x-4 justify-evenly md:pt-2 drop-shadow-md">
-						<LinkGithub />
+						<LinkGithub
+							url="https://github.com/MateoGonzalezAmortegui"
+							addClass="md:text-white lg:h-16 lg:w-16"
+						/>
 
 						<Button
 							text={hero.cv}
 							icon="cv"
-							url=""
+							url="/MateoGonzalezAmorteguiHV.pdf"
+							addClassText="lg:font-extrabold lg:text-xl"
+							addClassButton="lg:h-16 lg:w-56"
 						></Button>
 					</div>
 				</div>

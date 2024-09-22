@@ -1,16 +1,21 @@
 import Link from "next/link"
 import { Github } from "../icons/Github"
 
-export const LinkGithub = ({ addClass }: { addClass?: string }) => {
+interface LinkGithubProps {
+	url: string
+	addClass: string
+}
+
+export const LinkGithub = ({ url, addClass }: LinkGithubProps) => {
 	return (
 		<Link
 			className="effect_button"
-			href="https://github.com/MateoGonzalezAmortegui"
+			href={url}
 			target="_blank"
 		>
 			<Github
 				width={42}
-				className={`md:text-white lg:h-16 lg:w-16 ${addClass}`}
+				className={`${addClass}`}
 			/>
 		</Link>
 	)

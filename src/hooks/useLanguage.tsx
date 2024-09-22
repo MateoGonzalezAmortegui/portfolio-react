@@ -100,7 +100,8 @@ export const useLanguage = (): Language => {
 									"MongoDB",
 									"AWS",
 								],
-								url: "https://adopt-pet-three.vercel.app/",
+								urlRepo: "https://github.com/MateoGonzalezAmortegui/Adopt-Pet",
+								urlDeploy: "https://adopt-pet-three.vercel.app/",
 							},
 							{
 								tittle: "Angular Store",
@@ -113,7 +114,10 @@ export const useLanguage = (): Language => {
 									"Tienda en línea interactiva con funcionalidades avanzadas para productos, categorías y detalles. Implementado con diseño responsivo para una experiencia de compra fluida.",
 
 								technologies: ["Html", "Sass", "Angular", "TypeScript"],
-								url: "https://63af13f06fc0c508ae1f5f60--idyllic-profiterole-21cd83.netlify.app/home",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/Angular-Store",
+								urlDeploy:
+									"https://63af13f06fc0c508ae1f5f60--idyllic-profiterole-21cd83.netlify.app/home",
 							},
 							{
 								tittle: "Portafolio",
@@ -126,7 +130,9 @@ export const useLanguage = (): Language => {
 									"Un portafolio dinámico que destaca mis habilidades y proyectos, con modo oscuro y traducción de idiomas, optimizado para todos los dispositivos.",
 
 								technologies: ["Html", "Tailwind", "React", "Nextjs"],
-								url: "",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/portfolio-react",
+								urlDeploy: "https://portfolio-react-three-ashen.vercel.app/",
 							},
 							{
 								tittle: "Travel Page",
@@ -140,7 +146,10 @@ export const useLanguage = (): Language => {
 									"Plataforma interactiva que ofrece información detallada sobre destinos turísticos. Diseño responsivo y modo oscuro para una experiencia inmersiva.",
 
 								technologies: ["Html", "Tailwind", "JavaScript"],
-								url: "https://mateogonzalezamortegui.github.io/Travel-page/index.html",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/Travel-page",
+								urlDeploy:
+									"https://mateogonzalezamortegui.github.io/Travel-page/index.html",
 							},
 							{
 								tittle: "Lista de To-Do App",
@@ -153,7 +162,10 @@ export const useLanguage = (): Language => {
 									"Aplicación intuitiva para gestionar tareas con funciones de edición y seguimiento. Desarrollado con diseño responsivo y funcionalidades completas.",
 
 								technologies: ["Html", "Css", "React"],
-								url: "https://mateogonzalezamortegui.github.io/ToDo-ReactApp/",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/ToDo-ReactApp",
+								urlDeploy:
+									"https://mateogonzalezamortegui.github.io/ToDo-ReactApp/",
 							},
 							{
 								tittle: "Landing Page",
@@ -166,7 +178,10 @@ export const useLanguage = (): Language => {
 									"Reto de Frontend Mentor, una página de aterrizaje optimizada con diseño adaptable y modo oscuro para mejorar la experiencia del usuario.",
 
 								technologies: ["Html", "Sass", "JavaScript"],
-								url: "https://mateogonzalezamortegui.github.io/Landing-Page/",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/Landing-Page",
+								urlDeploy:
+									"https://mateogonzalezamortegui.github.io/Landing-Page/",
 							},
 						],
 						cta: "Ver pagina",
@@ -194,7 +209,8 @@ export const useLanguage = (): Language => {
 									"MongoDB",
 									"AWS",
 								],
-								url: "https://adopt-pet-three.vercel.app/",
+								urlRepo: "https://github.com/MateoGonzalezAmortegui/Adopt-Pet",
+								urlDeploy: "https://adopt-pet-three.vercel.app/",
 							},
 							{
 								tittle: "Angular Store",
@@ -206,7 +222,10 @@ export const useLanguage = (): Language => {
 								description:
 									"Interactive online store with advanced features for products, categories and details. Implemented with responsive design for a smooth shopping experience.",
 								technologies: ["Html", "Sass", "Angular", "TypeScript"],
-								url: "https://63af13f06fc0c508ae1f5f60--idyllic-profiterole-21cd83.netlify.app/home",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/Angular-Store",
+								urlDeploy:
+									"https://63af13f06fc0c508ae1f5f60--idyllic-profiterole-21cd83.netlify.app/home",
 							},
 							{
 								tittle: "Portfolio",
@@ -218,7 +237,9 @@ export const useLanguage = (): Language => {
 								description:
 									"A dynamic portfolio that highlights my skills and projects, with dark mode and language translation, optimized for all devices.",
 								technologies: ["Html", "Tailwind", "React", "Nextjs"],
-								url: "",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/portfolio-react",
+								urlDeploy: "https://portfolio-react-three-ashen.vercel.app/",
 							},
 							{
 								tittle: "Travel Page",
@@ -230,7 +251,10 @@ export const useLanguage = (): Language => {
 								description:
 									"Interactive platform that offers detailed information about tourist destinations. Responsive design and dark mode for an immersive experience.",
 								technologies: ["Html", "Tailwind", "JavaScript"],
-								url: "https://mateogonzalezamortegui.github.io/Travel-page/index.html",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/Travel-page",
+								urlDeploy:
+									"https://mateogonzalezamortegui.github.io/Travel-page/index.html",
 							},
 							{
 								tittle: "To-Do App",
@@ -242,7 +266,10 @@ export const useLanguage = (): Language => {
 								description:
 									"Intuitive application to manage tasks with editing and tracking functions. Developed with responsive design and full functionalities.",
 								technologies: ["Html", "Css", "React"],
-								url: "https://mateogonzalezamortegui.github.io/ToDo-ReactApp/",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/ToDo-ReactApp",
+								urlDeploy:
+									"https://mateogonzalezamortegui.github.io/ToDo-ReactApp/",
 							},
 							{
 								tittle: "Landing Page",
@@ -254,7 +281,10 @@ export const useLanguage = (): Language => {
 								description:
 									"Frontend Mentor Challenge, an optimized landing page with responsive design and dark mode to improve the user experience.",
 								technologies: ["Html", "Sass", "JavaScript"],
-								url: "https://mateogonzalezamortegui.github.io/Landing-Page/",
+								urlRepo:
+									"https://github.com/MateoGonzalezAmortegui/Landing-Page",
+								urlDeploy:
+									"https://mateogonzalezamortegui.github.io/Landing-Page/",
 							},
 						],
 						cta: "Wacth page",

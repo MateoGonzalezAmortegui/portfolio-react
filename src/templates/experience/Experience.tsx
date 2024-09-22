@@ -16,7 +16,12 @@ export const Experience = () => {
 				<Tittle tittle={workExperience.tittle} />
 
 				<article className="mt-9">
-					<div className="lg:grid lg:grid-cols-5">
+					<div
+						className="lg:grid lg:grid-cols-5"
+						data-aos="fade-right"
+						data-aos-offset="300"
+						data-aos-easing="ease-in-sine"
+					>
 						<div className="flex pb-2 space-x-4 font-semibold border-b-2 lg:flex-col lg:space-y-5 lg:border-0">
 							{workExperience.company.map((company, index) => (
 								<ButtonCompany

@@ -5,16 +5,9 @@ import { LinkGithub } from "@/components/common/LinkGithub"
 import { ImageCarousel } from "./ImageCarousel"
 import { DescriptionProject } from "./DescriptionProject"
 import { TechnologyProject } from "./TechnologyProject"
+import { ProjectProps } from "@/interface/Project"
 
-interface ImagesProject {
-	url: string
-}
-interface ProjectProps {
-	tittle: string
-	images: ImagesProject[]
-	description: string
-	technologies: string[]
-	url: string
+interface CardProjectProps extends ProjectProps {
 	cta: string
 }
 
@@ -23,11 +16,17 @@ export const CardProject = ({
 	images,
 	description,
 	technologies,
-	url,
+	urlDeploy,
+	urlRepo,
 	cta,
-}: ProjectProps) => {
+}: CardProjectProps) => {
 	return (
-		<article className="card efect_card">
+		<article
+			className="card efect_card"
+			data-aos="flip-left"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="2500"
+		>
 			<ImageCarousel images={images} />
 			<div className="p-4 rounded-t-lg">
 				<SubTittle
@@ -40,12 +39,15 @@ export const CardProject = ({
 				</div>
 
 				<div className="flex pb-4 mt-4 justify-evenly drop-shadow-md">
-					<LinkGithub addClass="text-black dark:text-white lg:h-10 lg:w-10" />
+					<LinkGithub
+						url={urlRepo}
+						addClass="text-black dark:text-white lg:h-10 lg:w-10"
+					/>
 
 					<Button
 						icon=""
 						text={cta}
-						url={url}
+						url={urlDeploy}
 						addClassText="lg:font-bold lg:text-base"
 						addClassButton="lg:h-11 lg:w-44"
 					/>

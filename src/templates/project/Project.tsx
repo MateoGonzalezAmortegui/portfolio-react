@@ -25,7 +25,8 @@ export const Project = () => {
 							images={Project.images}
 							description={Project.description}
 							technologies={Project.technologies}
-							url={Project.url}
+							urlRepo={Project.urlRepo}
+							urlDeploy={Project.urlDeploy}
 							cta={projects.cta}
 						/>
 					))}

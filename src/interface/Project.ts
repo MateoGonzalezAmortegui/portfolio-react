@@ -2,17 +2,18 @@ interface ImagesProject {
 	url: string
 }
 
-interface Project {
+export interface ProjectProps {
 	tittle: string
 	images: ImagesProject[]
 	description: string
 	technologies: string[]
-	url: string
+	urlDeploy: string
+	urlRepo: string
 }
 
-export interface ProjectProps {
+export interface ProjectsProps {
 	id: string
 	tittle: string
-	project: Project[]
+	project: ProjectProps[]
 	cta: string
 }
