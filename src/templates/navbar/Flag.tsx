@@ -1,6 +1,4 @@
-import { CaretDown } from "@/components/icons/CaretDown"
-import { Colombia } from "@/components/icons/Colombia"
-import { USA } from "@/components/icons/USA"
+import { CaretDown, Colombia, USA } from "@/components/icons"
 import React, { HTMLAttributes } from "react"
 
 interface FlagProps extends HTMLAttributes<HTMLSpanElement> {

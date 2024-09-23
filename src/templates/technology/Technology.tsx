@@ -18,7 +18,7 @@ export const Technology = () => {
 				/>
 			</div>
 
-			<div className="grid w-11/12 py-12 mx-auto my-0 gap-7 lg:grid-cols-3">
+			<div className="grid w-11/12 py-12 mx-auto my-0 gap-7 md:grid-cols-2">
 				{technologies.technology.map((tech, index) => (
 					<CardTechnology
 						key={index}

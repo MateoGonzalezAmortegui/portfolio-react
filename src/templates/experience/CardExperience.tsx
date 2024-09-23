@@ -1,4 +1,4 @@
-import { SubTittle } from "@/components/UI/SubTittle"
+import { SubTittle } from "@/components/UI"
 
 interface CardExperienceProps {
 	tittleJob: string

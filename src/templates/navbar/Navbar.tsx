@@ -1,14 +1,10 @@
 "use client"
-import { Moon } from "@/components/icons/Moon"
-import { Sun } from "@/components/icons/Sun"
+import { Moon, Sun } from "@/components/icons"
 
 import { useLanguage } from "@/hooks/useLanguage"
 import { useThemeLanguage } from "@/context/ThemeLanguage"
 
-import { SecImages } from "@/templates/navbar/SecImages"
-import { Sections } from "./Section"
-import { Flag } from "./Flag"
-import { ButtonsMobile } from "./ButtonsMobile"
+import { Sections, Flag, ButtonsMobile, SecImages } from "./"
 
 export const Navbar = () => {
 	const { language, toggleLanguage, theme, toggleTheme } = useThemeLanguage()

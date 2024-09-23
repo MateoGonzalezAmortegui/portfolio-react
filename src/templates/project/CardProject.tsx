@@ -1,10 +1,9 @@
-import { SubTittle } from "@/components/UI/SubTittle"
-import { Button } from "@/components/UI/Button"
+import { SubTittle, Button } from "@/components/UI"
+
 import { LinkGithub } from "@/components/common/LinkGithub"
 
-import { ImageCarousel } from "./ImageCarousel"
-import { DescriptionProject } from "./DescriptionProject"
-import { TechnologyProject } from "./TechnologyProject"
+import { ImageCarousel, DescriptionProject, TechnologyProject } from "./"
+
 import { ProjectProps } from "@/interface/Project"
 
 interface CardProjectProps extends ProjectProps {

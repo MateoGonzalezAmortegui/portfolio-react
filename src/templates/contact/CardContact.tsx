@@ -1,8 +1,7 @@
-import { Cellphone } from "@/components/icons/Cellphone"
-import { Colombia } from "@/components/icons/Colombia"
-import { Email } from "@/components/icons/Email"
-import { Linkedin } from "@/components/icons/Linkedin"
+import { Cellphone, Colombia, Email, Linkedin } from "@/components/icons"
+
 import { SocialMediaProps } from "@/interface/Contact"
+
 import Link from "next/link"
 
 interface CardContactProps {

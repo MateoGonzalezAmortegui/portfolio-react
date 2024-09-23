@@ -1,7 +1,7 @@
 "use client"
-import { Tittle } from "@/components/UI/Tittle"
+import { Tittle } from "@/components/UI"
 import { useLanguage } from "@/hooks/useLanguage"
-import { CardProject } from "./CardProject"
+import { CardProject } from "./"
 
 export const Project = () => {
 	const { projects } = useLanguage()

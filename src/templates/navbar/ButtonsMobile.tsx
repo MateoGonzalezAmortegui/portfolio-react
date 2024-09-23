@@ -1,7 +1,4 @@
-import { Briefcase } from "@/components/icons/Briefcase"
-import { Cellphone } from "@/components/icons/Cellphone"
-import { Profile } from "@/components/icons/Profile"
-import { Technology } from "@/components/icons/Technology"
+import { Briefcase, Cellphone, Profile, Technology } from "@/components/icons"
 import Link from "next/link"
 
 interface ButtonsMobileProps {

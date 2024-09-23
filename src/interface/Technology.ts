@@ -2,12 +2,12 @@ interface TechProps {
 	name: string
 }
 
-export interface Technology {
+export interface TechnologyProps {
 	specify: string
 	technologies: TechProps[]
 }
-export interface TechnologyProps {
+export interface TechnologiesProps {
 	id: string
 	tittle: string
-	technology: Technology[]
+	technology: TechnologyProps[]
 }

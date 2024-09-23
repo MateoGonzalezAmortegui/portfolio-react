@@ -1,5 +1,5 @@
 "use client"
-import { Tittle } from "@/components/UI/Tittle"
+import { Tittle } from "@/components/UI"
 import { useLanguage } from "@/hooks/useLanguage"
 import { CardContact } from "./CardContact"
 

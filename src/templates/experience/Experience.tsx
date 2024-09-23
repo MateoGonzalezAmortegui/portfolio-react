@@ -1,10 +1,12 @@
 "use client"
 
-import { Tittle } from "@/components/UI/Tittle"
+import { Tittle } from "@/components/UI"
+
 import { useLanguage } from "@/hooks/useLanguage"
-import { ButtonCompany } from "./ButtonCompany"
+
+import { ButtonCompany, CardExperience } from "./"
+
 import { useState } from "react"
-import { CardExperience } from "./CardExperience"
 
 export const Experience = () => {
 	const { workExperience } = useLanguage()

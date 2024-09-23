@@ -1,16 +1,17 @@
-import { Angular } from "@/components/icons/Angular"
-import { AWS } from "@/components/icons/AWS"
-import { Css } from "@/components/icons/Css"
-import { Html } from "@/components/icons/Html"
-import { JavaScript } from "@/components/icons/JavaScript"
-import { MongoDb } from "@/components/icons/MongoDb"
-import { Nestjs } from "@/components/icons/Nestjs"
-import { Nextjs } from "@/components/icons/Nextjs"
-import { React } from "@/components/icons/React"
-import { Sass } from "@/components/icons/Sass"
-import { Tailwind } from "@/components/icons/Tailwind"
-import { TypeScript } from "@/components/icons/TypeScript"
-
+import {
+	Angular,
+	AWS,
+	Css,
+	Html,
+	JavaScript,
+	MongoDb,
+	Nestjs,
+	Nextjs,
+	React,
+	Sass,
+	Tailwind,
+	TypeScript,
+} from "@/components/icons"
 interface TechnologyProjectProps {
 	technologies: string[]
 }

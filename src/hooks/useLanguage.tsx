@@ -328,6 +328,10 @@ export const useLanguage = (): Language => {
 									{ name: "Azure" },
 								],
 							},
+							{
+								specify: "MOBILE",
+								technologies: [{ name: "React Native" }, { name: "Ionic" }],
+							},
 						],
 				  }
 				: {
@@ -366,6 +370,10 @@ export const useLanguage = (): Language => {
 									{ name: "AWS" },
 									{ name: "Azure" },
 								],
+							},
+							{
+								specify: "MOBILE",
+								technologies: [{ name: "React Native" }, { name: "Ionic" }],
 							},
 						],
 				  },

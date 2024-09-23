@@ -1,21 +1,24 @@
-import { Angular } from "@/components/icons/Angular"
-import { AWS } from "@/components/icons/AWS"
-import { Azure } from "@/components/icons/Azure"
-import { Css } from "@/components/icons/Css"
-import { Docker } from "@/components/icons/Docker"
-import { Html } from "@/components/icons/Html"
-import { Java } from "@/components/icons/Java"
-import { JavaScript } from "@/components/icons/JavaScript"
-import { MongoDb } from "@/components/icons/MongoDb"
-import { MySQL } from "@/components/icons/MySQL"
-import { Nestjs } from "@/components/icons/Nestjs"
-import { Nextjs } from "@/components/icons/Nextjs"
-import { Nodejs } from "@/components/icons/Nodejs"
-import { React } from "@/components/icons/React"
-import { Sass } from "@/components/icons/Sass"
-import { SpringBoot } from "@/components/icons/SpringBoot"
-import { Tailwind } from "@/components/icons/Tailwind"
-import { TypeScript } from "@/components/icons/TypeScript"
+import {
+	Ionic,
+	Angular,
+	AWS,
+	Azure,
+	Css,
+	Docker,
+	Html,
+	Java,
+	JavaScript,
+	MongoDb,
+	MySQL,
+	Nestjs,
+	Nextjs,
+	Nodejs,
+	React,
+	Sass,
+	SpringBoot,
+	Tailwind,
+	TypeScript,
+} from "@/components/icons"
 
 export const CardTech = ({ nameTech }: { nameTech: string }) => {
 	return (
@@ -39,6 +42,8 @@ export const CardTech = ({ nameTech }: { nameTech: string }) => {
 				{nameTech == "Docker" && <Docker width={50} />}
 				{nameTech == "AWS" && <AWS width={50} />}
 				{nameTech == "Azure" && <Azure width={50} />}
+				{nameTech == "React Native" && <React width={50} />}
+				{nameTech == "Ionic" && <Ionic width={50} />}
 			</span>
 			<p className="font-normal text-whites">{nameTech}</p>
 		</div>

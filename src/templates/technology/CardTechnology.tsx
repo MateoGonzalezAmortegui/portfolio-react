@@ -1,10 +1,10 @@
 import { SubTittle } from "@/components/UI/SubTittle"
 import { CardTech } from "./CardTech"
-import { Technology } from "@/interface/Technology"
+import { TechnologyProps } from "@/interface/Technology"
 
-export const CardTechnology = ({ specify, technologies }: Technology) => {
+export const CardTechnology = ({ specify, technologies }: TechnologyProps) => {
 	return (
-		<article className="w-full rounded-lg pb-11 border-stone-400 efect_card lg:px-11">
+		<article className="w-full rounded-lg p-3 border-stone-400 efect_card lg:px-11">
 			<SubTittle
 				text={specify}
 				addClass="p-3"
